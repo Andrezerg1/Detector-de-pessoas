@@ -7,6 +7,12 @@ O sistema recebe uma imagem e utiliza uma inteligência artificial própria para
 
 Para isso, eu treinei um modelo utilizando aprendizado de máquina para ser capaz de identificar pessoas na imagem, e apenas apontar isso ao ter 90% de certeza que se trata de um ser humano.
 
+Trecho de código utilizado para validar essa precisão:
+
+```
+if confidence > 0.9:
+```
+
 ## Tecnologias e Ferramentas Utilizadas
 * **Python:** Linguagem base para a construção do script e lógica do sistema.
 * **OpenCV:** Biblioteca utilizada para a manipulação da imagem, leitura dos arquivos e desenho dos retângulos de detecção na tela.
